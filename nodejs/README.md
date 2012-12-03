@@ -1,6 +1,7 @@
 # Arduino using NodeJS
 
 
+
 ## Requirements
 
 - NodeJS installed
@@ -20,3 +21,16 @@ Install all dependencies :
 To run a file, just execute it using _node_ command :
 
     node mail-joke.js
+
+
+## Available samples
+
+### mail-joke.js
+
+Sends a random joke by email when pressing a button on the Arduino.
+
+
+### artwino.js
+
+Light alerts when recieving new tweets (timeline, mention, or direct message).
+See artwino.jpg to mount your Arduino hardware.
