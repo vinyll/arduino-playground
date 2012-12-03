@@ -1,0 +1,9 @@
+{
+  "name": "arduino-playground",
+  "version":"0.0.1",
+  "dependencies":{
+    "johnny-five": "",
+    "request": "",
+    "sendgrid": ""
+  }
+}
