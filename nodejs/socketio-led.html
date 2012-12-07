@@ -1,0 +1,38 @@
+<html>
+<head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:8080'),
+          ledStatus = 'off';
+
+        socket.on('ledStatus', function(data) {
+            ledStatus = data;
+            document.getElementById('led_status').innerHTML = ledStatus;
+        });
+
+        function switchLed() {
+            action = ledStatus != 'on' ? 'on' : 'off';
+            socket.emit('ledSwitch', {action: action});
+        }
+
+        function init() {
+          document.getElementById('led_switch').onclick = function(evt) {
+            evt.preventDefault();
+            switchLed();
+          };
+        }
+    </script>
+</head>
+
+<body onload="init()">
+    <h1>Remotly control an Arduino from a browser</h1>
+
+    <fieldset>
+        <legend>LED controle</legend>
+        <p>LED is <span id="led_status">off</span></p>
+        <input type="submit" id="led_switch" value="Switch LED" />
+    </fieldset>
+
+    <small>Calling "switchLed()" from the console inside this window (like Firebug) should work as well.</small>
+</body>
+</html>
