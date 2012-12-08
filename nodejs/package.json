@@ -5,6 +5,7 @@
     "johnny-five": "",
     "request": "",
     "sendgrid": "",
-    "ntwitter": ""
+    "ntwitter": "",
+    "socket.io": ""
   }
 }
