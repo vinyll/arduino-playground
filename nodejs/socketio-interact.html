@@ -4,25 +4,30 @@
     <script>
         var socket = io.connect('http://localhost:8080'),
             value = 127,
-            shape,
-            mround = Math.round;
+            shape;
 
         function init() {
             shape = document.getElementById('shape');
 
             socket.on('change', function(value) {
-                value = mround(value);
-                //console.log(value);
-                shape.style.width =
-                    value*3;
-                //shape.style.backgroundColor = "rgb("+value+","+value+","+value+")";
+                value = Math.round(value);
+                shape.style.width = value*3;
                 shape.style.transform = "rotate("+value*1.5+"deg)";
+            });
+
+            socket.on('move', function(x, y) {
+                console.log(parseInt(shape.style.left, 10));
+                shape.style.left = shape.style.left.substr(0,-2) + x*20;
+                shape.style.top = shape.style.left.substr(0,-2) + y*20;
             });
         }
     </script>
 
     <style>
         #shape {
+            position: absolute;
+            top: 0;
+            left: 0;
             display: block;
             margin: auto;
             width: 100px;
