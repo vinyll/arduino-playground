@@ -59,3 +59,9 @@ http://arduino.cc/forum/index.php?topic=106043.0
 [magnetic sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY025.JPG)
 
 --
+**KY036**
+
+*Metal Touch Sensor Module*
+[Metal/body touch](http://www.cutedigi.com/pub/sensor/sensorkit/KY036.JPG)
+
+--
