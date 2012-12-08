@@ -26,7 +26,12 @@ https://github.com/rwldrn/johnny-five/blob/master/docs/ping.md
 https://github.com/rwldrn/johnny-five/issues/18
 http://arduino.cc/forum/index.php?topic=106043.0
 --
-***KY008** - Ok
+**KY008** - Ok
 
 *Laser Diode Module*
 ![Laser](http://www.cutedigi.com/pub/sensor/sensorkit/KY008.JPG)
+--
+**KY020** - Ok
+
+*Flip switch module*
+![Flip switch](http://www.cutedigi.com/pub/sensor/sensorkit/KY020.jpg)
