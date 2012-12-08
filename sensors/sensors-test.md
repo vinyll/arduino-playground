@@ -65,3 +65,7 @@ http://arduino.cc/forum/index.php?topic=106043.0
 [Metal/body touch](http://www.cutedigi.com/pub/sensor/sensorkit/KY036.JPG)
 
 --
+**KY035**
+
+*Hall (magnetic) sensor**
+![Hall](http://www.cutedigi.com/pub/sensor/sensorkit/KY035.JPG)
