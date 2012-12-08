@@ -2,13 +2,16 @@ http://www.cutedigi.com/arduino/sensors-kit-for-arduino.html
 
 ---
 **KY013** - test
-*Analog Temprature Sensor*
+
+*Analog Temperature Sensor*
 
 ![Sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY013.jpg)
 [example script](https://gist.github.com/3752122)
 ---
 **KY027** - Ok
+
 *Magic LED cup Module - tilt*
+
 Goal : vibration detection
 ![sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY027.JPG)
 ---
