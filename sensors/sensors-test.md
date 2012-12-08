@@ -47,7 +47,15 @@ http://arduino.cc/forum/index.php?topic=106043.0
 ![Flame detector](http://www.cutedigi.com/pub/sensor/sensorkit/KY026.JPG)
 
 --
-	** KY028**
+			**KY028**
 
 *Digital/Analogic Temperature Sensor module*
 [temperature sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY028.JPG)
+
+--
+**KY025**
+
+*Big reed magnetic sensor*
+[magnetic sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY025.JPG)
+
+--
