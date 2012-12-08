@@ -38,13 +38,18 @@ board.on("ready", function() {
             pin: "A3",
             freq: 50
         });
+        joystick = new five.Joystick({
+          pins: [ "A1", "A2" ],
+          freq: 50
+        });
 
-        potentiometer.on("read", function( err, value ) {
-            if(value == potentiometerValue) {
-                return;
-            }
+        joystick.on("axismove", function( err, timestamp ) {
+            socket.emit('move', this.fixed.x-.5, this.fixed.y-.5);
+        });
+
+        potentiometer.on("change", function( err, value ) {
             potentiometerValue = value;
-            socket.emit('change', this.normalized);
+            //socket.emit('change', this.normalized);
         });
     });
 });
