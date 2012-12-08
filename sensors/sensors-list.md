@@ -34,4 +34,13 @@ http://arduino.cc/forum/index.php?topic=106043.0
 ![LED RGB keyes](http://www.cutedigi.com/pub/sensor/sensorkit/KY034.jpg)
 
 [see sample script](https://github.com/vinyll/arduino-playground/blob/master/nodejs/led-rgb-keyes.js)
+---
+
+## KY010 - Light Block
+
+Acts like a photoresistor (opposite ?)
+
+![Light block sensor](http://www.cutedigi.com/pub/sensor/sensorkit/KY010.JPG)
+
+[see sample script](https://github.com/vinyll/arduino-playground/blob/master/nodejs/temperature.js)
 
