@@ -1,15 +1,17 @@
 /**
-Interact with an item inside a web page from your Arduino.
+Use your Arduino breadboard as a gamepad and play Mario in your browser.
 
 ## Requirements
 
-- Plug a potentiometer to pin A3 (see https://github.com/rwldrn/johnny-five/blob/master/docs/breadboard/potentiometer.png).
+- Plug a joystick to pin A1 and A2
+- Plug a button to pin 8
 
+See https://github.com/vinyll/arduino-playground/blob/master/nodejs/socketio-mario.png
 
 ## How it works
 
 1. Launch this script and open a web browser at http://localhost:8080
-2. turn the potentiometer and see the shape inside the web page changing
+2. press the button to start or jump. Move the joystick around to move.
 
 */
 var server = require('http').createServer(serverHandler),
